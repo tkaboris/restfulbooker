@@ -12,7 +12,7 @@ public class JsonPathIntro {
                 "  \"lastname\": \"Brown\"\r\n" +
                 "}";
 
-        // Get JSON Path instance of given json document
+        // Get JSON Path instance of given json documents
         JsonPath jsonPath = new JsonPath(json);
         String firstName = jsonPath.getString("firstname");
 
